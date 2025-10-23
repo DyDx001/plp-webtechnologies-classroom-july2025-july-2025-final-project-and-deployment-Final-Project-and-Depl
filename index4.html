@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Abdulahi O. Afolabi</title>
+  <meta name="description" content="Contact page for Abdulahi Olajide Afolabi — reach out for collaborations or graduate opportunities." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Abdulahi Afolabi</a>
+
+      <nav class="nav" id="navContact" role="navigation" aria-label="Main Navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="cta">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggleContact" aria-controls="navContact" aria-expanded="false" aria-label="Toggle navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h1 class="reveal">Contact</h1>
+    <p class="lead reveal">I'd love to hear about graduate opportunities, research collaborations, or internships. Use the form below or email me directly.</p>
+
+    <form id="contactForm" class="contact-form reveal" novalidate>
+      <label for="name">Full name</label>
+      <input type="text" id="name" name="name" required minlength="3" placeholder="Your full name" />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="your.email@example.com" />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required minlength="10" placeholder="Tell me about the opportunity..."></textarea>
+
+      <div class="form-actions">
+        <button type="submit" class="btn">Send message</button>
+        <button type="reset" class="btn ghost">Reset</button>
+      </div>
+
+      <div id="formFeedback" role="status" aria-live="polite" class="muted"></div>
+    </form>
+
+    <section class="contact-cards reveal" aria-hidden="false">
+      <div class="card micro">
+        <h4>Email</h4>
+        <p><a href="mailto:afolabiabdulahi13@gmail.com">afolabiabdulahi13@gmail.com</a></p>
+      </div>
+      <div class="card micro">
+        <h4>Phone</h4>
+        <p>+234 814 227 2667</p>
+      </div>
+      <div class="card micro">
+        <h4>Location</h4>
+        <p>Ibadan, Oyo State, Nigeria</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div>
+        <strong>Abdulahi O. Afolabi</strong>
+        <p class="muted">Final-year EEE student — Research & IoT enthusiast</p>
+      </div>
+      <nav aria-label="Footer Navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="small">© 2025 Abdulahi Olajide Afolabi</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
