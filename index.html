@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdulahi Olajide Afolabi | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #f0f0f0;
+      background-color: #0d1b2a;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1b263b;
+      color: #f4f4f4;
+      padding: 1rem 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      color: #e0a96d;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #f0f0f0;
+    }
+
+    .container {
+      width: 85%;
+      margin: 2rem auto;
+      max-width: 1200px;
+    }
+
+    section {
+      background: #1b263b;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    section h2 {
+      color: #e0a96d;
+      border-bottom: 2px solid #e0a96d;
+      padding-bottom: 0.5rem;
+    }
+
+    .profile {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .profile img {
+      border-radius: 50%;
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border: 3px solid #e0a96d;
+      margin-bottom: 1rem;
+    }
+
+    .profile div {
+      max-width: 600px;
+    }
+
+    .skills ul, .projects ul, .education ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills li, .projects li, .education li {
+      background: #0d1b2a;
+      margin: 0.5rem 0;
+      padding: 0.75rem;
+      border-left: 4px solid #e0a96d;
+      border-radius: 6px;
+    }
+
+    footer {
+      text-align: center;
+      background: #1b263b;
+      padding: 1rem 0;
+      color: #bbb;
+      font-size: 0.9rem;
+    }
+
+    .contact a {
+      color: #e0a96d;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .profile {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Abdulahi Olajide Afolabi</h1>
+    <p>Electrical & Electronics Engineer | Data Scientist | Software Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <div class="profile">
+        <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" alt="Avatar of Abdulahi" />
+        <div>
+          <h2>About Me</h2>
+          <p>
+            I’m <strong>Abdulahi Olajide Afolabi</strong>, a final-year Electrical and Electronics Engineering student at the Federal University Oye-Ekiti and a Data Science student at Miva Open University. 
+            I’m passionate about building intelligent systems that merge <strong>AI, IoT, and software engineering</strong> to improve automation, analytics, and system performance.
+          </p>
+          <p>
+            As a researcher and developer, I specialize in designing scalable web and embedded systems, focusing on predictive maintenance, IoT solutions, and AI-driven web applications. 
+            My work balances innovation with functionality — practical engineering with academic depth.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Eng. Electrical and Electronics Engineering</strong> — Federal University Oye-Ekiti (In View) <br>CGPA: 4.30/5.00 | Top 10%</li>
+        <li><strong>ND in Electrical and Electronics Engineering</strong> — Federal Polytechnic Offa <br>CGPA: 3.54/4.00 | Top 5%</li>
+        <li><strong>Data Science (100L Student)</strong> — Miva Open University (In Progress)</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Programming Languages:</strong> Python, C, JavaScript, HTML, CSS</li>
+        <li><strong>Web Development:</strong> Frontend (HTML5, CSS3, JS), Responsive Design, UI/UX Optimization</li>
+        <li><strong>Software Engineering:</strong> Version Control (Git/GitHub), API Integration, Deployment (Netlify, Vercel)</li>
+        <li><strong>Data Science:</strong> Pandas, NumPy, Scikit-learn, Visualization</li>
+        <li><strong>IoT & Embedded Systems:</strong> Arduino, Sensors, Microcontrollers, SCADA Systems</li>
+        <li><strong>Simulation & Design:</strong> MATLAB, Circuit Design, Transformer Diagnostics</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>1KVA Solar Power System with Automated Change Over</strong> — Designed and implemented a solar inverter system with seamless switching for reliability.</li>
+        <li><strong>24V Automated Battery Charger with Auto Cut-off</strong> — Built an intelligent charging circuit ensuring power efficiency and safety.</li>
+        <li><strong>IoT-Based Smoke Detection System</strong> — Developed a connected smoke detection system for real-time monitoring and alerts.</li>
+        <li><strong>Mood Journal Web App</strong> — Designed and deployed a responsive mood-tracking web app using HTML, CSS, and JS for emotional analytics.</li>
+        <li><strong>Weather Website</strong> — Built a weather data platform that integrates live API data and visualizes forecasts dynamically.</li>
+        <li><strong>Portfolio Website</strong> — Developed this professional personal site to showcase my academic, technical, and research background.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:afolabiabdulahi13@gmail.com">afolabiabdulahi13@gmail.com</a></p>
+      <p>Phone: <a href="tel:+2348142272667">+234 814 227 2667</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com" target="_blank">linkedin.com/in/abdulahi-olajide-afolabi</a></p>
+      <p>GitHub: <a href="https://github.com" target="_blank">github.com/abdulahi-afolabi</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Abdulahi Olajide Afolabi | Designed & Developed with Passion</p>
+  </footer>
+
+  <script>
+    const links = document.querySelectorAll('nav a');
+    links.forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(link.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
